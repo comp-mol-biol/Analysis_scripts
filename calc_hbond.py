@@ -14,7 +14,7 @@ for both wild-type (WT) and mutant (Mut) systems using MDAnalysis. It:
 The visualization uses CA atom coordinates from a reference structure to 
 draw cylinders representing residue-residue hydrogen bond differences.
 
-Author: Cline
+Author: Jonas Paulus usign Cline and QWEN3 235B
 Date: 2025-10-09
 """
 import MDAnalysis as mda
