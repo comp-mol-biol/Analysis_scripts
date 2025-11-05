@@ -118,7 +118,7 @@ for n in range(len(i_set)):
     j = j_set[n]
     if i>j:
         p_i = ca.atoms.positions[i,:]
-        p_j = ca.atoms.positions[j,:]
+        p_j = ca.atoms.positions[j,:]t
         script.append(f"draw cylinder {{{p_i[0]:.3f} {p_i[1]:.3f} {p_i[2]:.3f}}} {{{p_j[0]:.3f} {p_j[1]:.3f} {p_j[2]:.3f}}} radius 0.2\n")
 
 with open("draw_hbonds_z_test.tcl", "w") as file:
