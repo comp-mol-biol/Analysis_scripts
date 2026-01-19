@@ -4,7 +4,6 @@ import MDAnalysis as mda
 import MDAnalysis.analysis.align as align
 from MDAnalysis.lib import distances
 
-#%%
 #%% ---------- Einstellungen ----------
 top_wt = "md_WT_0_1.gro"
 traj_wt = "WT_0_1_fit1.xtc"
